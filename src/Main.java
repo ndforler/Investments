@@ -15,7 +15,7 @@ public class Main {
             money = scanner.nextInt();
             System.out.print("What is the interest on your money(Whole value): ");
             interest = scanner.nextDouble();
-            interest /= 100;
+            interest /= 10;
             System.out.print("How much do you invest each year: ");
             yearly = scanner.nextInt();
             System.out.print("How many years are you investing: ");
